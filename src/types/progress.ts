@@ -78,7 +78,7 @@ export const DEFAULT_SETTINGS: UserSettings = {
   quizShuffleQuestions: true,
   showEnglishTerms: true,
   aiProvider: "gemini",
-  aiModel: "gemini-2.5-flash",
+  aiModel: "gemini-3-flash-preview",
   aiBaseUrl: "",
 } as const;
 

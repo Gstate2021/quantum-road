@@ -42,10 +42,10 @@ import {
 } from "lucide-react";
 
 const AI_PROVIDERS: { value: AiProvider; label: string; placeholder: string }[] = [
-  { value: "gemini", label: "Google Gemini", placeholder: "gemini-2.5-flash" },
+  { value: "gemini", label: "Google Gemini", placeholder: "gemini-3-flash-preview" },
   { value: "openai", label: "OpenAI", placeholder: "gpt-4.1-mini" },
   { value: "anthropic", label: "Anthropic", placeholder: "claude-sonnet-4-6" },
-  { value: "openrouter", label: "OpenRouter", placeholder: "google/gemini-2.5-flash" },
+  { value: "openrouter", label: "OpenRouter", placeholder: "google/gemini-3-flash-preview" },
   { value: "custom", label: "Custom (OpenAI互換)", placeholder: "model-name" },
 ];
 

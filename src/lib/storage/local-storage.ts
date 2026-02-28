@@ -71,7 +71,7 @@ function migrateState(state: Record<string, unknown>): AppState {
       settings: {
         ...(current.settings as Record<string, unknown>),
         aiProvider: "gemini",
-        aiModel: "gemini-2.5-flash",
+        aiModel: "gemini-3-flash-preview",
         aiBaseUrl: "",
       },
     };
