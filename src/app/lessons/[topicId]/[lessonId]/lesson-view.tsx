@@ -9,6 +9,7 @@ import { Separator } from "@/components/ui/separator";
 import { useProgress } from "@/hooks/use-progress";
 import type { Topic, Lesson, LessonSection, KeyConcept } from "@/types/content";
 import Link from "next/link";
+import { LessonAiChat } from "@/components/lesson-ai-chat";
 import {
   CheckCircle2,
   ChevronLeft,
@@ -273,6 +274,7 @@ export function LessonView({
           )}
         </div>
       </main>
+      <LessonAiChat topic={topic} lesson={lesson} />
     </>
   );
 }

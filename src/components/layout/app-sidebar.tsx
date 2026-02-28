@@ -12,6 +12,7 @@ import {
   Atom,
   RefreshCw,
   Sparkles,
+  MessageCircleQuestion,
 } from "lucide-react";
 import {
   Sidebar,
@@ -191,6 +192,14 @@ export function AppSidebar() {
                   <Link href="/lab">
                     <Sparkles className="h-4 w-4" />
                     <span>ブレストラボ</span>
+                  </Link>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+              <SidebarMenuItem>
+                <SidebarMenuButton asChild isActive={pathname === "/qa"}>
+                  <Link href="/qa">
+                    <MessageCircleQuestion className="h-4 w-4" />
+                    <span>質問履歴</span>
                   </Link>
                 </SidebarMenuButton>
               </SidebarMenuItem>
