@@ -71,6 +71,11 @@ import { quantumLiteracyTrainingLessons } from "./layer3/quantum-literacy-traini
 import { quantumLiteracyTrainingQuiz } from "./layer3/quantum-literacy-training/quiz";
 import { quantumLiteracyTrainingFlashcards } from "./layer3/quantum-literacy-training/flashcards";
 
+import { deloitteQuantumInsightsMeta } from "./layer3/deloitte-quantum-insights/meta";
+import { deloitteQuantumInsightsLessons } from "./layer3/deloitte-quantum-insights/lessons";
+import { deloitteQuantumInsightsQuiz } from "./layer3/deloitte-quantum-insights/quiz";
+import { deloitteQuantumInsightsFlashcards } from "./layer3/deloitte-quantum-insights/flashcards";
+
 // Topic registry
 const topicMap: Record<string, Topic> = {
   "computational-complexity": computationalComplexityMeta,
@@ -86,6 +91,7 @@ const topicMap: Record<string, Topic> = {
   "computational-assessment": computationalAssessmentMeta,
   "quantum-inspired-optimization": quantumInspiredOptimizationMeta,
   "quantum-literacy-training": quantumLiteracyTrainingMeta,
+  "deloitte-quantum-insights": deloitteQuantumInsightsMeta,
 };
 
 const lessonsMap: Record<string, readonly Lesson[]> = {
@@ -102,6 +108,7 @@ const lessonsMap: Record<string, readonly Lesson[]> = {
   "computational-assessment": computationalAssessmentLessons,
   "quantum-inspired-optimization": quantumInspiredOptimizationLessons,
   "quantum-literacy-training": quantumLiteracyTrainingLessons,
+  "deloitte-quantum-insights": deloitteQuantumInsightsLessons,
 };
 
 const quizMap: Record<string, readonly QuizQuestion[]> = {
@@ -118,6 +125,7 @@ const quizMap: Record<string, readonly QuizQuestion[]> = {
   "computational-assessment": computationalAssessmentQuiz,
   "quantum-inspired-optimization": quantumInspiredOptimizationQuiz,
   "quantum-literacy-training": quantumLiteracyTrainingQuiz,
+  "deloitte-quantum-insights": deloitteQuantumInsightsQuiz,
 };
 
 const flashcardsMap: Record<string, readonly FlashcardDefinition[]> = {
@@ -134,6 +142,7 @@ const flashcardsMap: Record<string, readonly FlashcardDefinition[]> = {
   "computational-assessment": computationalAssessmentFlashcards,
   "quantum-inspired-optimization": quantumInspiredOptimizationFlashcards,
   "quantum-literacy-training": quantumLiteracyTrainingFlashcards,
+  "deloitte-quantum-insights": deloitteQuantumInsightsFlashcards,
 };
 
 // Public API

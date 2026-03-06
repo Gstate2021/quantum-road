@@ -42,6 +42,7 @@ export const layers: readonly Layer[] = [
       "computational-assessment",
       "quantum-inspired-optimization",
       "quantum-literacy-training",
+      "deloitte-quantum-insights",
     ],
   },
 ] as const;
