@@ -1,5 +1,5 @@
 const EXPECTED_HASH =
-  "1f4d7a85f2cc19b378703e222af9048b4a2ecf7ced5fc4e79baa366314dd65a9";
+  "ad8ca41fa5d76be04f77593e01cc68d270302dfedea478e3970ff51d99d3d328";
 
 const AUTH_STORAGE_KEY = "quantum-road-auth";
 
